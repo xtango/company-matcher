@@ -27,6 +27,8 @@ Combines multiple techniques to improve accuracy123.
 
 This dictionary helps in normalizing and matching company names more effectively. 
 
+```{python}
+# Dictionary to look up the full form of common company suffixes
 COMPANY_ABBREVIATIONS = {
     "Corp": "Corporation",
     "Inc": "Incorporated",
@@ -49,3 +51,4 @@ COMPANY_ABBREVIATIONS = {
     "AG": "Aktiengesellschaft",
     "SA": "Société Anonyme"
 }
+```
