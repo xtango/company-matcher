@@ -4,17 +4,17 @@ Common company name matching algorithms are designed to handle variations in nam
 Some widely used algorithms:
 
 ## Phonetic Matching:
-### Soundex: Encodes names by their sounds.
-### Metaphone: An improvement over Soundex, handling more phonetic nuances.
-### Double Metaphone: Further refines Metaphone by providing two encodings for names with multiple pronunciations.
+* Soundex: Encodes names by their sounds.
+* Metaphone: An improvement over Soundex, handling more phonetic nuances.
+* Double Metaphone: Further refines Metaphone by providing two encodings for names with multiple pronunciations.
 
 ##  Edit Distance Algorithms:
-### Levenshtein Distance: Measures the minimum number of single-character edits needed to change one name into another.
-### Jaro-Winkler Distance: An extension of Jaro distance, giving more weight to matching the beginning of the strings.
+* Levenshtein Distance: Measures the minimum number of single-character edits needed to change one name into another.
+* Jaro-Winkler Distance: An extension of Jaro distance, giving more weight to matching the beginning of the strings.
 
 ## Token-Based Matching:
-### Tokenization: Breaks names into tokens (words or parts) and compares them.
-### N-grams: Compares sequences of ‘n’ characters or words.
+* Tokenization: Breaks names into tokens (words or parts) and compares them.
+* N-grams: Compares sequences of ‘n’ characters or words.
 
 ## Probabilistic Matching:
 Uses statistical models to estimate the likelihood of two names referring to the same entity.
@@ -27,7 +27,7 @@ Combines multiple techniques to improve accuracy123.
 
 This dictionary helps in normalizing and matching company names more effectively. 
 
-```{python}
+```python
 # Dictionary to look up the full form of common company suffixes
 COMPANY_ABBREVIATIONS = {
     "Corp": "Corporation",
